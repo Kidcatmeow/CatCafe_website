@@ -1,0 +1,487 @@
+.container-fluid{
+    background-image: url("https://cdn.discordapp.com/attachments/780445598507073536/877449959128055838/2752883.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family: cursive;
+
+}
+div.Header{
+    height:300px;
+    background-image: url("https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/63/2016/11/10025010/destination-cat-cafe-1200x400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div.Header h1{
+    text-shadow: 0 0 5px ghostwhite;
+}
+
+div#Navigation{
+    alignment: center;
+    padding-top: 35px;
+
+}
+
+div#Navigation a {
+
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    alignment: center;
+    margin: 20px;
+    background-color: lightpink;
+    color: black;
+    font-size: 20px;
+    padding: 10px 60px;
+    text-decoration-line: none;
+
+}
+div#Navigation a:hover {
+    color: ghostwhite;
+    box-shadow: 0 0 5px gainsboro;
+    text-shadow: 0 0 5px ghostwhite;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #ffacaa;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -50px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 10px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+div.PageContent{
+
+    width: 100%;
+    height: 100%;
+    background-image: url("images/coffeebean2.png");
+    background-repeat: no-repeat;
+}
+
+
+
+.box{
+    border: 5px solid hotpink;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    height: 600px;
+    width: 900px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: snow;
+    font-size: 20px;
+
+
+}
+
+/*div.box{*/
+/*    background-color: white;*/
+/*    width: 1000px;*/
+/*    height: 600px;*/
+/*    margin-top: 80px;*/
+/*    margin-bottom: 80px;*/
+/*}*/
+
+div.PageContent li{
+    text-align:left;
+    padding-bottom: 20px;
+}
+
+.PageContent h3{
+
+    text-decoration: underline;
+}
+
+div.PageContent img {
+    margin-right: 50px;
+
+}
+
+.circle{
+    border-radius: 80%;
+}
+
+div.PageContent h1 {
+    margin-left: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+div.PageContent h2 {
+    font-size: 22px;
+}
+
+div#Review{
+    background: pink;
+    height: 500px;
+}
+
+div#Review p1{
+    alignment: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div#Review p{
+    text-align: center;
+    font-size: 25px;
+}
+
+div#Review img{
+    width:30px;
+}
+
+
+
+.row {
+    width: 100%;
+    text-align: center; // center the content of the container
+}
+
+.block {
+    width: 100px;
+    display: inline-block; // display inline with ability to provide width/height
+}
+
+div.Footer{
+    background-color: antiquewhite;
+    height: 300px;
+}
+
+div.column1{
+    float: left;
+    width:50%;
+}
+
+div.column2{
+    float: left;
+    width:50%;
+}
+
+
+
+
+div.Footer .p{
+    font-size: 20px;
+    alignment: left;
+    margin-left: 40px;
+}
+
+div.Footer p1{
+    font-size: 25px;
+    alignment: left;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+div.Footer p2{
+    font-size: 25px;
+    alignment: right;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+div.Footer img{
+    margin-left:20px;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+
+
+}
+
+div.social img{
+    alignment: left;
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+
+
+div.social img{
+    alignment: left;
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+
+
+/*Faq*/
+
+.faq-search-wrap {
+    padding: 50px 0 60px;
+}
+
+.faq-search-wrap .form-group .form-control,
+.faq-search-wrap .form-group .dd-handle {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.faq-search-wrap .form-group .input-group-append {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.faq-search-wrap .form-group .input-group-append .input-group-text {
+    background: transparent;
+    border: none;
+}
+
+.faq-search-wrap .form-group .input-group-append .input-group-text .feather-icon > svg {
+    height: 18px;
+    width: 18px;
+}
+.bg-teal-light-3 {
+    background-color: #7fcdc1 !important;
+}
+
+.hk-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+@media (min-width: 576px){
+    .mt-sm-60 {
+        margin-top: 60px !important;
+    }
+}
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.list-group-item.active {
+    background-color: #00acf0;
+    border-color: #00acf0;
+}
+.accordion .card .card-header.activestate {
+    border-width: 1px;
+}
+.accordion .card .card-header {
+    padding: 0;
+    border-width: 0;
+}
+.card.card-lg .card-header, .card.card-lg .card-footer {
+    padding: .9rem 1.5rem;
+}
+.accordion>.card .card-header {
+    margin-bottom: -1px;
+}
+.card .card-header {
+    background: transparent;
+    border: none;
+}
+.accordion.accordion-type-2 .card .card-header > a.collapsed {
+    color: #324148;
+}
+.accordion .card:first-of-type .card-header:first-child > a {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.accordion.accordion-type-2 .card .card-header > a {
+    background: transparent;
+    color: #00acf0;
+    padding-left: 50px;
+}
+.accordion .card .card-header > a.collapsed {
+    color: #324148;
+    background: transparent;
+}
+.accordion .card .card-header > a {
+    background: #00acf0;
+    color: #fff;
+    font-weight: 500;
+    padding: .75rem 1.25rem;
+    display: block;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+a {
+    text-decoration: none;
+    color: #00acf0;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+
+.badge.badge-pill {
+    border-radius: 50px;
+}
+.badge.badge-light {
+    background: #eaecec;
+    color: #324148;
+}
+.badge {
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 5px 7px;
+    font-size: 72%;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+}
+.ml-15 {
+    margin-left: 15px !important;
+}
+
+.accordion.accordion-type-2 .card .card-header > a.collapsed:after {
+    content: "\f158";
+}
+
+.accordion.accordion-type-2 .card .card-header > a::after {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Ionicons';
+    speak: none;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: auto;
+    position: absolute;
+    content: "\f176";
+    font-size: 21px;
+    top: 15px;
+    left: 20px;
+}
+
+.mr-15 {
+    margin-right: 15px !important;
+}
+
+/*FAQ*/
+/* Style the buttons that are used to open and close the accordion panel */
+
+.FAQ{
+    background-image: url("images/faq2.jpg");
+    width: 100%;
+}
+
+.FAQ p{
+    text-align: left;
+}
+
+.accordion {
+    margin-top: 5px;
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.6s;
+}
+
+/* Add a background color to the button if it is clicked
+on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: peachpuff;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Calibri;
+    color: #e23a72;
+    font-size: 35px;
+    text-space: 2px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,243 @@
+.container-fluid{
+    background-image: url("https://cdn.discordapp.com/attachments/780445598507073536/877449959128055838/2752883.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family: cursive;
+
+}
+div.Header{
+    height:300px;
+    background-image: url("https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/63/2016/11/10025010/destination-cat-cafe-1200x400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div.Header h1{
+    text-shadow: 0 0 5px ghostwhite;
+}
+
+div#Navigation{
+    alignment: center;
+    padding-top: 35px;
+
+}
+
+div#Navigation a {
+
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    alignment: center;
+    margin: 20px;
+    background-color: lightpink;
+    color: black;
+    font-size: 20px;
+    padding: 10px 60px;
+    text-decoration-line: none;
+
+}
+div#Navigation a:hover {
+    color: ghostwhite;
+    box-shadow: 0 0 5px gainsboro;
+    text-shadow: 0 0 5px ghostwhite;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: lightcoral;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+div.PageContent{
+    width:auto;
+    height:auto;
+    background-color: white;
+
+}
+
+
+.circle{
+    border-radius: 80%;
+}
+
+
+.row {
+    width: 100%;
+    text-align: center; // center the content of the container
+}
+
+.block {
+    width: 100px;
+    display: inline-block; // display inline with ability to provide width/height
+}
+
+div.Footer{
+    background-color: antiquewhite;
+    height: 300px;
+}
+
+div.column1{
+    float: left;
+    width:50%;
+}
+
+div.column2{
+    float: left;
+    width:50%;
+}
+
+
+
+
+div.Footer .p{
+    font-size: 20px;
+    alignment: left;
+    margin-left: 40px;
+}
+
+div.Footer p1{
+    font-size: 25px;
+    alignment: left;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+div.Footer p2{
+    font-size: 25px;
+    alignment: right;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+div.Footer img{
+    margin-left:20px;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+
+
+}
+
+div.social img{
+    alignment: left;
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+/* photo slides */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 550px;
+    background: #262626;
+    overflow: hidden;
+}
+.card .imgBx,
+.card .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.card .imgBx {
+    top: 0;
+    left: 0;
+}
+.card:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.card .imgBx img {
+    width: 100%;
+}
+.card .details {
+    background: #F0AF66;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.card:hover .details {
+    top: 0;
+    left: 0%;
+}
+.card .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.card .details p {
+    margin: 20px 0 0;
+    color: #fff;
+    text-align: left;
+    font-size: 19px;
+}
+
+.box{
+    border: 5px solid palevioletred;
+    margin: 10px;
+    border-radius: 10px;
+    height: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: palevioletred;
+    font-size: 20px;
+    color: #eaecec;
+    position: absolute;
+    top:350px;
+    transform: translate(50%, -50%);
+
+}
+
+.row {
+    width: 100%;
+    text-align: center; // center the content of the container
+}

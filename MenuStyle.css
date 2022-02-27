@@ -1,0 +1,244 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+/** {box-sizing:border-box}*/
+
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: -25px;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Position the "left button" to the right */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Caption text */
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size:20px;
+    font-family: cursive;
+    background-color: transparent;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    font-family: cursive;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.animated {
+    -webkit-animation-duration: 10s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.container-fluid{
+    background-image: url("https://cdn.discordapp.com/attachments/780445598507073536/877449959128055838/2752883.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family: cursive;
+
+}
+div.Header{
+    height:300px;
+    background-image: url("https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/63/2016/11/10025010/destination-cat-cafe-1200x400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div.Header h1{
+    text-shadow: 0 0 5px ghostwhite;
+    color: black;
+}
+
+
+div#Navigation{
+    alignment: center;
+    padding-top: 35px;
+
+}
+
+div#Navigation a {
+
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    alignment: center;
+    margin: 20px;
+    background-color: lightpink;
+    color: black;
+    font-size: 20px;
+    padding: 10px 60px;
+    text-decoration-line: none;
+
+}
+div#Navigation a:hover {
+    color: ghostwhite;
+    box-shadow: 0 0 5px gainsboro;
+    text-shadow: 0 0 5px ghostwhite;
+}
+div.PageContent{
+
+    height:auto;
+    background-color: white;
+}
+
+
+.row {
+    width: 100%;
+    text-align: center; // center the content of the container
+}
+
+.block {
+    width: 100px;
+    display: inline-block; // display inline with ability to provide width/height
+}
+
+
+/* Footer */
+
+
+div.Footer{
+    background-color: antiquewhite;
+    height: 300px;
+}
+
+div.column1{
+    float: left;
+    width:50%;
+}
+
+div.column2{
+    float: left;
+    width:50%;
+}
+
+
+
+div.Footer .p{
+    font-size: 20px;
+    alignment: left;
+    margin-left: 40px;
+}
+
+div.Footer p1{
+    font-size: 25px;
+    alignment: left;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+div.Footer p2{
+    font-size: 25px;
+    alignment: right;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+div.Footer img{
+    margin-left:20px;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+
+
+}
+
+div.social img{
+    alignment: left;
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+
+
